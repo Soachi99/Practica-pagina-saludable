@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+    -mox-box-sizing: border-box;
+    -web-kit: border-box;
+}
+
+body{    
+    font-family: 'Montserrat', sans-serif; 
+}
+
+.topbar-container{
+    background-color: rgba(245, 218, 177, 0.5);
+    box-shadow: 0px 0px 13px 1px rgba(10, 10, 10, 0.65);
+    z-index: 2;    
+}
+
+.logo{
+    width: 300px;
+}
+
+.boton{
+    width: auto;
+    height: 60px;
+}
+
+.fondo{    
+    position: absolute;
+    width: 100%;
+    height: 91vh;    
+    background: url("/images/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.contenedor-formulario-contacto{
+    background-color:rgba(249, 237, 216, 0.60) ;    
+    max-width: 1000px;
+}
+
+.contenedor-formulario-contacto:hover{
+    z-index: 2;
+    background-color:rgba(249, 237, 216, 1) ;  
+}
+
+
+.formulario{
+    max-width: 32rem;
+}
+
+@media (max-width: 940px) {
+
+    .fondo{    
+        position: absolute;
+        width: 100%;
+        height: 91vh;    
+        background: white no-repeat center center fixed;
+        background-size: cover;
+    }
+
+    .contenedor-formulario-contacto{
+        margin-left: 20px !important; 
+        margin-right: 20px !important; 
+    }    
+
+    .formulario{
+        margin-left: 20px !important; 
+        margin-right: 20px !important; 
+    }
+}
